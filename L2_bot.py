@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('6334829219:AAGnXHQbzcyZXrDYofqFy86Fnilb6_QywaA', parse_mode='MARKDOWN')
+bot = telebot.TeleBot(' ', parse_mode='MARKDOWN')
 from telebot import types
 
 @bot.message_handler(commands=['start'])
